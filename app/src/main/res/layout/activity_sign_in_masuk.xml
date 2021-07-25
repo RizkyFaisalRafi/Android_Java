@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:viewBindingIgnore="false"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignInMasuk"
+    android:background="@color/putihbg">
+
+    <LinearLayout
+        android:id="@+id/title"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:text="@string/sign_in"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/email"
+            android:hint="@string/email"
+            android:drawableLeft="@drawable/email"
+            android:drawablePadding="10dp"
+            android:layout_marginTop="30dp"
+            android:textColorHint="@color/grey"
+            android:background="@drawable/custom_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/password"
+            android:hint="@string/password"
+            android:drawableLeft="@drawable/password"
+            android:drawablePadding="10dp"
+            android:layout_marginTop="30dp"
+            android:textColorHint="@color/grey"
+            android:background="@drawable/custom_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- Daftar / Sign Up -->
+        <Button
+            android:id="@+id/signup"
+            android:text="@string/create_new_account"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/custom_button"
+            app:backgroundTint="@color/hijaumuda"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <!-- OR -->
+        <TextView
+            android:text="@string/orAtau"
+            android:textSize="17sp"
+            android:layout_marginTop="12dp"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Masuk / Log In -->
+        <Button
+            android:id="@+id/signin"
+            android:text="@string/log_in"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/custom_button_log_in"
+            app:backgroundTint="@color/blue"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <!-- Text kata kata -->
+        <TextView
+            android:id="@+id/kata"
+            android:text="@string/katakata2"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/blue"
+            android:layout_marginTop="50dp"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <!-- Text RIFARA Studio Diary Apps -->
+        <TextView
+            android:id="@+id/note"
+            android:text="@string/rifara_studio"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="@color/blue"
+            android:layout_marginTop="80dp"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

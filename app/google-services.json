@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "826390004865",
+    "project_id": "powerrender-c6b43",
+    "storage_bucket": "powerrender-c6b43.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:826390004865:android:9a73511032cc23e31e3980",
+        "android_client_info": {
+          "package_name": "com.diary.apps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "826390004865-gpl10p9tnoeo5kklv1gt3msj8us6in1m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3KGRHgmif-nmW3UWmWmZlydd9dJ2aLf0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "826390004865-gpl10p9tnoeo5kklv1gt3msj8us6in1m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
